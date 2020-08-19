@@ -7,30 +7,80 @@ const fs = require('fs')
 
 
 async function CreateIndex() {
-    var title;
-    var project;
-    var install;
-    var guideline;
-    var contribution;
-    var test;
-    const variables = [title,project,install,guideline,contribution,test]
-    const names =["title","project","install","guideline","contribution","test"]
 
-    const questions = ["What is the project title?","Describe your project","What are your installation instructions?","What are the guidelines for use?","What are the guidelines for contributions?","What are the test instructions?" ]
-    
-for(let i=0;i< questions.length; i++ ) {
+    const liscenses = ["MIT"]
+
+    const names =["title","project","install","guideline","contribution","test", "liscense"]
+
+    const questions = ["What is the project title?","Describe your project","What are your installation instructions?","What are the guidelines for use?","What are the guidelines for contributions?","What are the test instructions?", "What liscense will you be using?" ]
+
     try {
-          variables[i] = await inquirer.prompt({
-          message: questions[i],
-          name: names[i],
+          const{ title } = await inquirer.prompt({
+          message: questions[0],
+          name: names[0],
         });
-        console.log(variables[i])
+        console.log(title)
       } catch (err) {
         console.log(err);
       }
+    try {
+          const{ project } = await inquirer.prompt({
+          message: questions[1],
+          name: names[1],
+        });
+        console.log(project)
+      } catch (err) {
+        console.log(err);
+      }
+    try {
+          const{ install } = await inquirer.prompt({
+          message: questions[2],
+          name: names[2],
+        });
+        console.log(install)
+      } catch (err) {
+        console.log(err);
+      }
+    try {
+          const{ guideline } = await inquirer.prompt({
+          message: questions[3],
+          name: names[3],
+        });
+        console.log(guideline)
+      } catch (err) {
+        console.log(err);
+      }
+    try {
+          const{ contribution } = await inquirer.prompt({
+          message: questions[4],
+          name: names[4],
+        });
+        console.log(contribution)
+      } catch (err) {
+        console.log(err);
+      }
+    try {
+          const{ test } = await inquirer.prompt({
+          message: questions[5],
+          name: names[5],
+        });
+        console.log(test)
+      } catch (err) {
+        console.log(err);
+      }
+      try {
+        const{ liscense } = await inquirer.prompt({
+        type: 'list',
+        message: questions[6],
+        choices: liscenses ,
+        name: names[6]
+      });
+      console.log(liscense)
+    } catch (err) {
+      console.log(err);
+    }
 
     
-};
 
 
 var read = ``
