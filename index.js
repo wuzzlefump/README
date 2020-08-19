@@ -8,11 +8,11 @@ const fs = require('fs')
 
 async function CreateIndex() {
 
-    const liscenses = ["MIT"]
+    const liscenses = ["MIT", "Apache 2.0","BSD-2-Clause", "BSD-3-Clause","GPL", "LGPL", "MPL-2.0", "CDDL-1.0", "CC0-1.0"]
 
-    const names =["title","project","install","guideline","contribution","test", "liscense"]
+    const names =["title","project","install","guideline","contribution","test", "git","email","liscense"]
 
-    const questions = ["What is the project title?","Describe your project","What are your installation instructions?","What are the guidelines for use?","What are the guidelines for contributions?","What are the test instructions?", "What liscense will you be using?" ]
+    const questions = ["What is the project title?","Describe your project","What are your installation instructions?","What are the guidelines for use?","What are the guidelines for contributions?","What are the test instructions?","What is your github username","What is your email address?", "What liscense will you be using?" ]
 
     try {
           const{ title } = await inquirer.prompt({
@@ -68,12 +68,31 @@ async function CreateIndex() {
       } catch (err) {
         console.log(err);
       }
+    try {
+          const{ git } = await inquirer.prompt({
+          message: questions[6],
+          name: names[6],
+        });
+        console.log(git)
+      } catch (err) {
+        console.log(err);
+      }
+    try {
+          const{ email } = await inquirer.prompt({
+          message: questions[7],
+          name: names[7],
+        });
+        console.log(email)
+      } catch (err) {
+        console.log(err);
+      }
+
       try {
         const{ liscense } = await inquirer.prompt({
         type: 'list',
-        message: questions[6],
+        message: questions[8],
         choices: liscenses ,
-        name: names[6]
+        name: names[8]
       });
       console.log(liscense)
     } catch (err) {
