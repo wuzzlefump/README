@@ -71,6 +71,41 @@ async function CreateIndex() {
 
     badge:"[![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)"
   }
+var read = `# ${Title}
+
+## Description
+${Description}
+
+
+### Liscenses
+${Badge}
+
+${Badged}
+
+## Table of Contents
+* <a href="#install">Installation</a>
+* <a href ="#use">Usage Information</a>
+* <a href="#test">Test Instructions</a>
+* <a href="#q">Questions</a>
+
+<h3 id= "install" > Installation</h3>
+${Install}
+
+
+<h3 id = "use"> Usage Information</h3>
+${Guideline}
+${Contribution}
+
+<h3 id="test"> Test Instructions</h3>
+${Test}
+
+
+<h2 id = "q"> Questions</h2>
+
+If you have Questions you can check out:
+<a href="${Git}">${Git}</a><br>
+or email:
+${Email}`
 
     const badges =[MIT,Apache,BSD2,BSD3,GPL,LGPL,MPL2,CC0]
 
@@ -185,7 +220,7 @@ async function CreateIndex() {
     
 
 
-var read = ``
+
 
     await fs.writeFile("README.md",read, err =>{
       if(err){

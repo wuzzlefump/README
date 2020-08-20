@@ -20,7 +20,8 @@ ${Install}
 
 
 <h3 id = "use"> Usage Information</h3>
-${}
+${Guideline}
+${Contribution}
 
 <h3 id="test"> Test Instructions</h3>
 ${Test}
