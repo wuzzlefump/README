@@ -1,12 +1,12 @@
-# README maker
+# README
 
 ## Description
-This code generates a readme
+Using node JS I have created a program that makes readmes
 
 
 ### Liscenses
 [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
-
+<br>
 'Releases software into the public domain, or otherwise grants permission to use it for any purpose. Disclaims patent licenses.'-exerpt from 'https://tldrlegal.com/license/creative-commons-cc0-1.0-universal' 
 
 ## Table of Contents
@@ -16,15 +16,18 @@ This code generates a readme
 * <a href="#q">Questions</a>
 
 <h3 id= "install" > Installation</h3>
-to use you will need inquirer
+use npm inquirer
 
 
 <h3 id = "use"> Usage Information</h3>
-use to make a readme
-to contribute shoot me an email to ask
+Guidelines for use
+use however you want
+<br>
+Guidelines to Contribution 
+contribute using your own branch
 
 <h3 id="test"> Test Instructions</h3>
-to test make sure you are in a seperate branch
+make sure you  have the json package in order to run the file then type node index.js
 
 
 <h2 id = "q"> Questions</h2>

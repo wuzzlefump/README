@@ -176,8 +176,7 @@ for(var i = 0; i< badges.length; i++){
       if(License == badges[i].name){
         Badge = badges[i].badge;
         Badged = badges[i].description;
-        console.log(Badge);
-        console.log(Badged);
+
       }      
     }
     } catch (err) {
@@ -194,7 +193,7 @@ ${Project}
 
 ### Liscenses
 ${Badge}
-
+<br>
 ${Badged}
 
 ## Table of Contents
@@ -208,7 +207,10 @@ ${Install}
 
 
 <h3 id = "use"> Usage Information</h3>
+Guidelines for use
 ${Guideline}
+<br>
+Guidelines to Contribution 
 ${Contribution}
 
 <h3 id="test"> Test Instructions</h3>
@@ -233,16 +235,5 @@ console.log("Your page has been made")
     });
 }
 
-
-// function to write README file
-function writeToFile(fileName, data) {
-
-}
-
-// function to initialize program
-function init() {
 CreateIndex();
-}
 
-// function call to initialize program
-init();
