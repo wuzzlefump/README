@@ -1,13 +1,13 @@
-# Title
+# README maker
 
 ## Description
-project
+This code generates a readme
 
 
-### Licenses
-undefined
+### Liscenses
+[![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
 
-undefined
+'Releases software into the public domain, or otherwise grants permission to use it for any purpose. Disclaims patent licenses.'-exerpt from 'https://tldrlegal.com/license/creative-commons-cc0-1.0-universal' 
 
 ## Table of Contents
 * <a href="#install">Installation</a>
@@ -16,15 +16,15 @@ undefined
 * <a href="#q">Questions</a>
 
 <h3 id= "install" > Installation</h3>
-install
+to use you will need inquirer
 
 
 <h3 id = "use"> Usage Information</h3>
-us
-contribute
+use to make a readme
+to contribute shoot me an email to ask
 
 <h3 id="test"> Test Instructions</h3>
-test
+to test make sure you are in a seperate branch
 
 
 <h2 id = "q"> Questions</h2>

@@ -76,7 +76,7 @@ let Badged;
 
     const badges =[MIT,Apache,BSD2,BSD3,GPL,LGPL,MPL2,CC0]
 
-    const licenses = ["MIT", "Apache 2.0","BSD-2-Clause", "BSD-3-Clause","GPL", "LGPL", "MPL-2.0", "CC0-1.0"]
+    const licenses = ["MIT", "Apache","BSD2", "BSD3","GPL", "LGPL", "MPL2", "CC0"]
 
     const names =["title","project","install","guideline","contribution","test", "git","email","license"]
 
@@ -172,21 +172,21 @@ let Badged;
       });
       License = license
       console.log(License)
-
+for(var i = 0; i< badges.length; i++){
+      if(License == badges[i].name){
+        Badge = badges[i].badge;
+        Badged = badges[i].description;
+        console.log(Badge);
+        console.log(Badged);
+      }      
+    }
     } catch (err) {
       console.log(err);
     }
-    for(var i = 0; i< badges.length; i++){
-      if(License == badges[i].name){
-        Badge = badges[i].badge
-        Badged = badges[i].description
-        console.log(Badge)
-        console.log(Badged)
-      }      
-    }
+    
     
 
-    var read = `# ${Title}
+var read = `# ${Title}
 
 ## Description
 ${Project}
