@@ -192,8 +192,7 @@ var read = `# ${Title}
 ${Project}
 
 
-### Liscenses
-<br>
+### Licenses
 ${Badge}
 <br>
 ${Badged}
