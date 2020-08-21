@@ -2,7 +2,7 @@
 
 ## Description
 <br>
-It generates a README
+
 
 
 ### Liscenses
@@ -23,27 +23,26 @@ It generates a README
 
 <h3 id= "install" > Installation</h3>
 <br>
-npm inquirer must be installed
+
 
 
 <h3 id = "use"> Usage Information</h3>
 <br>
 Guidelines for use
 <br>
- use however
+
 <br>
 Guidelines to Contribution 
 <br>
-contribute to your own branch
+
 
 <h3 id="test"> Test Instructions</h3>
- type node index.js
+
 
 
 <h2 id = "q"> Questions</h2>
 
 If you have Questions you can check out:
 <br>
-<a href="https://www.github.com/wuzzlefump">https://www.github.com/wuzzlefump</a><br>
+<a href="https://www.github.com/">https://www.github.com/</a><br>
 or email:
-paulelliottwork@gmail.com
