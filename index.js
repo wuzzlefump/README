@@ -188,29 +188,39 @@ for(var i = 0; i< badges.length; i++){
 var read = `# ${Title}
 
 ## Description
+<br>
 ${Project}
 
 
 ### Liscenses
+<br>
 ${Badge}
 <br>
 ${Badged}
 
 ## Table of Contents
+<br>
 * <a href="#install">Installation</a>
+<br>
 * <a href ="#use">Usage Information</a>
+<br>
 * <a href="#test">Test Instructions</a>
+<br>
 * <a href="#q">Questions</a>
 
 <h3 id= "install" > Installation</h3>
+<br>
 ${Install}
 
 
 <h3 id = "use"> Usage Information</h3>
+<br>
 Guidelines for use
+<br>
 ${Guideline}
 <br>
 Guidelines to Contribution 
+<br>
 ${Contribution}
 
 <h3 id="test"> Test Instructions</h3>
@@ -220,6 +230,7 @@ ${Test}
 <h2 id = "q"> Questions</h2>
 
 If you have Questions you can check out:
+<br>
 <a href="${Git}">${Git}</a><br>
 or email:
 ${Email}`
