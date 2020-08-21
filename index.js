@@ -214,11 +214,11 @@ ${Install}
 
 <h3 id = "use"> Usage Information</h3>
 <br>
-Guidelines for use
+*Guidelines for use:*
 <br>
 ${Guideline}
 <br>
-Guidelines to Contribution 
+*Guidelines for Contribution:* 
 <br>
 ${Contribution}
 

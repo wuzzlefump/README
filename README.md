@@ -2,7 +2,7 @@
 
 ## Description
 <br>
-it makes a readme
+ A program that makes a README
 
 
 ### Licenses
@@ -22,21 +22,21 @@ it makes a readme
 
 <h3 id= "install" > Installation</h3>
 <br>
-use inquirer
+npm inquirer is required along with fs
 
 
 <h3 id = "use"> Usage Information</h3>
 <br>
-Guidelines for use
+*Guidelines for use:*
 <br>
-use wisely
+Use however you want
 <br>
-Guidelines to Contribution 
+*Guidelines for Contribution:* 
 <br>
-contribute however
+contribute in your own branch
 
 <h3 id="test"> Test Instructions</h3>
-test however
+type node index.js then answer the prompts
 
 
 <h2 id = "q"> Questions</h2>
